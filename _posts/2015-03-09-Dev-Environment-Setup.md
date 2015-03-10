@@ -1,6 +1,7 @@
 ---
 title: Dev Environment Setup
 layout: post
+date: 2015-03-09 17:00:00
 ---
 
 I recently installed a fresh copy of Xubuntu 14.04 LTS along side of

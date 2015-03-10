@@ -1,6 +1,7 @@
 ---
 title: Hello, world.
 layout: post
+date: 2015-03-03 16:00:00
 ---
 
 Hey! I hope you can excuse the mess. I'm trying to get everything up as
