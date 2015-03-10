@@ -30,7 +30,7 @@ install them first.
 
 ### Ruby
 
-    sudo apt-et install ruby-full
+    sudo apt-get install ruby-full
 
 This gets mostly everything I need in regards to Ruby.
 
@@ -71,9 +71,7 @@ can use commands such as "express my-website"
     sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv
 7F0CEB10
 
-    echo "deb http://repo.mongodb.org/apt/ubuntu "$(lsb_release
--sc)"/mongodb-org/3.0 multiverse" | sudo tee
-/etc/apt/sources.list.d/mongodb-org-3.0.list
+    echo "deb http://repo.mongodb.org/apt/ubuntu "$(lsb_release -sc)"/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
 
     sudo apt-get update
 
@@ -87,8 +85,7 @@ Run all of these commands seperately. Mongo is now accessible using
 
 ### RVM
 
-    gpg --keyserver hkp://keys.gnupg.net --recv-keys
-409B6B1796C275462A1703113804BB82D39DC0E3
+    gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 
     \curl -sSL https://get.rvm.io | bash -s stable --ruby
 
@@ -134,8 +131,7 @@ there's any interest.
 
     sudo apt-get install irssi
     mkdir ~/.irssi ~/.irssi/scripts
-    cd ~/.irssi/scripts && wget
-http://wouter.coekaerts.be/irssi/scripts/nicklist.pl
+    cd ~/.irssi/scripts && wget http://wouter.coekaerts.be/irssi/scripts/nicklist.pl
 
 IRSSI is by far my favorite IRC client in linux. When using IRSSI in GNU
 screen, I also load the nicklist.pl script to show the online nicklist
