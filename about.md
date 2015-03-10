@@ -4,12 +4,17 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a hobby developer out of Kansas City. I like to learn new technologies and create neat things from them.
 
-### More Information
+### Favorites
 
-A place to include any other types of information that you'd like to include about yourself.
+* HTML, CSS, Javascript, Node.js, Angular.js, Ruby, Ruby on Rails, Java
+* Linux, Mac OS X, Git
+
+### But I also know my way around
+
+* PHP, C, C#, Python, BASH
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[cam@camcecil.com](mailto:cam@camcecil.com)
