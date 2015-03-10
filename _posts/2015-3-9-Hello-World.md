@@ -1,5 +1,7 @@
-Hello, world.
-=============
+---
+title: Hello, world.
+layout: post
+---
 
 Hey! I hope you can excuse the mess. I'm trying to get everything up as
 a static site using [Jekyll](http://jekyllrb.com/) on [Github
