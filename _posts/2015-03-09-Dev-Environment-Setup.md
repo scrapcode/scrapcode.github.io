@@ -37,7 +37,7 @@ This gets mostly everything I need in regards to Ruby.
 
 ### [Janus](http://github.com/carlhuda/janus)
 
-    cd ~/.git && curl -Lo- https://bit.ly/janus-bootstrap | bash
+    cd ~/.vim && curl -Lo- https://bit.ly/janus-bootstrap | bash
 
 Janus installs a lot of awesome plugins for Vim and organizes Vim
 configuration in a pleasurable way. Checkout their GitHub page for more
@@ -45,10 +45,12 @@ information.
 
 ### Monokai colorscheme
 
-    cd ~/.git && git clone https://github.com/sickill/vim-monokai.git
+    cd ~/.vim/janus/vim/colors && git clone https://github.com/sickill/vim-monokai.git
 
 If you've ever used Sublime Text, you're familiar with this sexy
 colorscheme.
+
+<strong>Edit:</strong> I've since switched to a heavily modified version of Monokai called [wells-colors](https://github.com/wellsjo/wells-colorscheme.vim)
 
 ### Node.js and NPM
 
@@ -69,8 +71,7 @@ can use commands such as "express my-website"
 
 ### MongoDB
 
-    sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv
-7F0CEB10
+    sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 
     echo "deb http://repo.mongodb.org/apt/ubuntu "$(lsb_release -sc)"/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
 
